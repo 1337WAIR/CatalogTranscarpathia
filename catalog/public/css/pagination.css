@@ -1,0 +1,26 @@
+*:active,
+*:hover
+{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.page-link{
+    background: #00B025;
+    color: #fff;
+}
+.page-link:hover{
+    background: #019322;
+    color: #fff;
+    border: none;
+}
+.page-item.active .page-link,
+.page-item.disabled .page-link{
+    background: #00B025;
+    border-color: #00B025;
+    color: #fff;
+    border: none;
+}
+.page-item.active .page-link{
+    margin: 1px;
+    background: #02811f;
+    border: none;
+}
